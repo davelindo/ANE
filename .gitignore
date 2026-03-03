@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Local artifact roots
+.cache/
+.local/
+.venv-nomic-ane/
+
+# Legacy artifact roots
+models/
+runs/
+training/__pycache__/
+training/*.bin
+training/train
+training/train_large
+training/test_ane_advanced
+training/test_perf_stats
+training/test_qos_sweep
+training/test_weight_reload
+
+# Build leftovers
+*.o
+*.dSYM/
